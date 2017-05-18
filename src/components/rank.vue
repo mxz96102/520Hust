@@ -40,10 +40,12 @@
 export default {
   name: 'rank',
   data () {
+    let __this = this;
+
     axios.get("message?sortby=likes")
       .then((result)=>{
         console.log(result)
-        __this.msg = result
+        __this.msg = result.data
       })
       .catch((e)=>{console.log(e)})
 

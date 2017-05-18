@@ -44,7 +44,7 @@ export default {
     axios.get("message?region="+this.$route.params.loc+"&number="+this.$route.params.num)
       .then((result)=>{
        console.log(result)
-        __this.msg = result
+        __this.msg = result.data
       })
 
     return {
@@ -65,13 +65,13 @@ export default {
   },
   methods:{
     search(){
-      let value = document.getElementsByTagName('input')[0].value
+      let value = document.getElementsByTagName('input')[0].value,__this = this;
       if(value !== ""){
         console.log(value)
         axios.get("message/search?region="+this.$route.params.loc+"&number="+this.$route.params.num+"&key="+value)
           .then((result)=>{
             console.log(result)
-            __this.msg = result
+            __this.msg = result.data;
           })
       }
     },
@@ -82,14 +82,14 @@ export default {
         axios.get("message?region="+this.$route.params.loc+"&number="+this.$route.params.num+"&sortby=likes")
           .then((result)=>{
             console.log(result)
-            __this.msg = result
+            __this.msg = result.data
           })
         type.innerHTML = "按时间"
       }else{
         axios.get("message?region="+this.$route.params.loc+"&number="+this.$route.params.num)
           .then((result)=>{
             console.log(result)
-            __this.msg = result
+            __this.msg = result.data
           })
         type.innerHTML = "按热度"
       }
