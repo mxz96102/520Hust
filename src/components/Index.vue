@@ -2,7 +2,7 @@
   <div class="index">
     <div class="nav">
         <div @click="()=>switchOn = !switchOn" class="nav-left">
-            <span>切换</span>
+            <span>校区</span>
             <ul class="switch-menu" :class="{'on' : switchOn}">
                 <li class="tabcon" @click="()=>location.hash='#/'" :class="{ 'on' : $route.params.loc !== 'qy' && $route.params.loc !== 'zs' }">韵苑</li>
                 <li class="tabcon" @click="()=>location.hash='#/map/qy'" :class="{ 'on' : $route.params.loc == 'qy' }">沁苑</li>
