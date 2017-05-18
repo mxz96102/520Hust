@@ -4,7 +4,7 @@
 import axios from 'axios'
 
 let axiosInstance = axios.create({
-  baseURL : "http://119.29.9.72:8888/api/"
+  baseURL : "http://520.mingdom.cn/api/"
 });
 
 export default axiosInstance
