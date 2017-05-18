@@ -116,7 +116,7 @@
 
       document.title = "520到了，没什么送我的话，麻烦给我表个白蟹蟹！";
 
-      axios.get("message/search?region="+this.$route.params.loc+"&number="+this.$route.params.num+"&key="+value)
+      axios.get("message/search?region="+this.$route.params.loc+"&number="+this.$route.params.num+"&key="+this.$route.params.name)
         .then((result)=>{
           console.log(result)
           __this.msg = result.data;
