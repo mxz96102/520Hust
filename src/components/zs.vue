@@ -1,0 +1,635 @@
+<template>
+  <div class="zs">
+      <svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 800 400" style="enable-background:new 0 0 800 400;" xml:space="preserve">
+<g id="XMLID_201_">
+
+		<rect id="XMLID_326_" @click="()=>location.hash='#/info/2/13'" x="10.6" y="290.3" transform="matrix(0.9843 -0.1763 0.1763 0.9843 -52.4693 12.4355)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_205_">
+
+			<rect id="XMLID_325_" x="15.3" y="298.7" transform="matrix(0.9843 -0.1763 0.1763 0.9843 -52.4245 8.2919)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_324_" x="15.7" y="300.8" transform="matrix(0.9843 -0.1763 0.1763 0.9843 -52.7862 8.3903)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_307_" class="st1" points="29.3,310 23.9,312.1 20.5,302 25.8,299.9 		"/>
+		<polygon id="XMLID_206_" class="st1" points="15.9,312.4 21.7,312.5 21.4,301.8 15.6,301.7 		"/>
+	</g>
+	<text id="XMLID_204_" transform="matrix(0.8581 -0.1537 0.1763 0.9843 60.15 296.902)" class="st1 st2 st3">13栋</text>
+	<text id="XMLID_203_" transform="matrix(0.8581 -0.1537 0.1763 0.9843 47.2819 307.075)" class="st4 st2 st3">{{numA[12]}}</text>
+	<text id="XMLID_202_" transform="matrix(0.8581 -0.1537 0.1763 0.9843 57.3377 305.2741)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_327_">
+
+		<rect id="XMLID_336_" @click="()=>location.hash='#/info/2/12'" x="16.3" y="338.9" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -22.5938 3.9418)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_331_">
+
+			<rect id="XMLID_335_" x="21.4" y="344.7" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -22.3229 2.4475)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_334_" x="21.5" y="346.8" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -22.4596 2.4609)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_333_" class="st1" points="34.1,356.9 28.6,358.4 26.3,348 31.8,346.5 		"/>
+		<polygon id="XMLID_332_" class="st1" points="20.5,357.8 26.3,358.6 27.2,347.9 21.5,347.1 		"/>
+	</g>
+	<text id="XMLID_330_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 66.4659 347.3831)" class="st1 st2 st3">12栋</text>
+	<text id="XMLID_329_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 52.3317 356.0493)" class="st4 st2 st3">{{numA[11]}}</text>
+	<text id="XMLID_328_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 62.5265 355.3869)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_349_">
+
+		<rect id="XMLID_358_" @click="()=>location.hash='#/info/2/8'" x="99.9" y="334.3"  transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -22.1168 9.351)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_353_">
+
+			<rect id="XMLID_357_" x="105" y="340" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -21.846 7.8567)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_356_" x="105.1" y="342.2" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -21.9827 7.8701)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_355_" class="st1" points="117.7,352.3 112.2,353.8 109.9,343.3 115.4,341.8 		"/>
+		<polygon id="XMLID_354_" class="st1" points="104.1,353.2 109.9,353.9 110.8,343.3 105.1,342.5 		"/>
+	</g>
+	<text id="XMLID_352_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 152.5354 342.7379)" class="st1 st2 st3">8栋</text>
+	<text id="XMLID_351_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 135.9244 351.404)" class="st4 st2 st3">{{numA[7]}}</text>
+	<text id="XMLID_350_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 146.1192 350.7417)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_413_">
+
+		<rect id="XMLID_422_" @click="()=>location.hash='#/info/2/5'" x="183.3" y="280.8" transform="matrix(1 -5.806998e-003 5.806998e-003 1 -1.6921 1.262)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_417_">
+
+			<rect id="XMLID_421_" x="188.8" y="285.2" transform="matrix(1 -5.806998e-003 5.806998e-003 1 -1.6561 1.1309)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_420_" x="188.8" y="287.3" transform="matrix(1 -5.806998e-003 5.806998e-003 1 -1.6684 1.131)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_419_" class="st1" points="200.8,297.9 195.1,299.1 193.5,288.5 199.1,287.3 		"/>
+		<polygon id="XMLID_418_" class="st1" points="187.2,298 192.8,299.1 194.4,288.5 188.7,287.4 		"/>
+	</g>
+	<text id="XMLID_416_" transform="matrix(0.8717 -5.064826e-003 5.810019e-003 1 235.8886 290.2515)" class="st1 st2 st3">5栋</text>
+	<text id="XMLID_415_" transform="matrix(0.8717 -5.064826e-003 5.810019e-003 1 218.9976 298.0803)" class="st4 st2 st3">{{numA[4]}}</text>
+	<text id="XMLID_414_" transform="matrix(0.8717 -5.064826e-003 5.810019e-003 1 229.2133 298.0209)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_423_">
+
+		<rect id="XMLID_432_" @click="()=>location.hash='#/info/2/10'" x="97.6" y="243" transform="matrix(1 -5.806998e-003 5.806998e-003 1 -1.474 0.7636)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_427_">
+
+			<rect id="XMLID_431_" x="103" y="247.4" transform="matrix(1 -5.806998e-003 5.806998e-003 1 -1.438 0.6325)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_430_" x="103" y="249.5" transform="matrix(1 -5.806998e-003 5.806998e-003 1 -1.4503 0.6326)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_429_" class="st1" points="115.1,260.1 109.4,261.3 107.7,250.7 113.4,249.5 		"/>
+		<polygon id="XMLID_428_" class="st1" points="101.5,260.2 107.1,261.3 108.7,250.7 103,249.6 		"/>
+	</g>
+	<text id="XMLID_426_" transform="matrix(0.8717 -5.064826e-003 5.810019e-003 1 148.101 252.4494)" class="st1 st2 st3">10栋</text>
+	<text id="XMLID_425_" transform="matrix(0.8717 -5.064826e-003 5.810019e-003 1 133.2736 260.2785)" class="st4 st2 st3">{{numA[9]}}</text>
+	<text id="XMLID_424_" transform="matrix(0.8717 -5.064826e-003 5.810019e-003 1 143.4892 260.2191)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_433_">
+
+		<rect id="XMLID_442_" @click="()=>location.hash='#/info/2/6'" x="183.3" y="243" transform="matrix(1 -5.806998e-003 5.806998e-003 1 -1.4726 1.2614)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_437_">
+
+			<rect id="XMLID_441_" x="188.8" y="247.4" transform="matrix(1 -5.806998e-003 5.806998e-003 1 -1.4366 1.1303)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_440_" x="188.8" y="249.5" transform="matrix(1 -5.806998e-003 5.806998e-003 1 -1.4489 1.1304)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_439_" class="st1" points="200.8,260.1 195.1,261.3 193.5,250.7 199.1,249.5 		"/>
+		<polygon id="XMLID_438_" class="st1" points="187.2,260.2 192.8,261.3 194.4,250.7 188.7,249.6 		"/>
+	</g>
+	<text id="XMLID_436_" transform="matrix(0.8717 -5.064826e-003 5.810019e-003 1 235.8887 252.4499)" class="st1 st2 st3">6栋</text>
+	<text id="XMLID_435_" transform="matrix(0.8717 -5.064826e-003 5.810019e-003 1 218.9971 260.2787)" class="st4 st2 st3">{{numA[5]}}</text>
+	<text id="XMLID_434_" transform="matrix(0.8717 -5.064826e-003 5.810019e-003 1 229.2132 260.2194)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_371_">
+
+		<rect id="XMLID_380_" @click="()=>location.hash='#/info/2/7'" x="102.8" y="370" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -24.4227 9.6122)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_375_">
+
+			<rect id="XMLID_379_" x="107.9" y="375.7" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -24.1519 8.118)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_378_" x="108" y="377.8" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -24.2886 8.1313)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_377_" class="st1" points="120.6,387.9 115,389.4 112.7,379 118.3,377.5 		"/>
+		<polygon id="XMLID_376_" class="st1" points="107,388.8 112.7,389.6 113.7,378.9 107.9,378.2 		"/>
+	</g>
+	<text id="XMLID_374_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 155.2018 378.4016)" class="st1 st2 st3">7栋</text>
+	<text id="XMLID_373_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 138.7976 387.0678)" class="st4 st2 st3">{{numA[6]}}</text>
+	<text id="XMLID_372_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 148.9924 386.4055)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_381_">
+
+		<rect id="XMLID_390_" @click="()=>location.hash='#/info/2/3'" x="186.7" y="363.6" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -23.8349 15.0405)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_385_">
+
+			<rect id="XMLID_389_" x="191.8" y="369.4" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -23.564 13.5462)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_388_" x="191.9" y="371.5" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -23.7007 13.5596)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_387_" class="st1" points="204.5,381.6 199,383.1 196.7,372.7 202.2,371.1 		"/>
+		<polygon id="XMLID_386_" class="st1" points="191,382.5 196.7,383.3 197.6,372.6 191.9,371.8 		"/>
+	</g>
+	<text id="XMLID_384_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 239.1434 372.0563)" class="st1 st2 st3">3栋</text>
+	<text id="XMLID_383_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 222.7395 380.7233)" class="st4 st2 st3">{{numA[2]}}</text>
+	<text id="XMLID_382_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 232.9343 380.061)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_391_">
+
+		<rect id="XMLID_400_" @click="()=>location.hash='#/info/2/1'" x="273.6" y="357.8" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -23.2774 20.6599)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_395_">
+
+			<rect id="XMLID_399_" x="278.7" y="363.6" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -23.0065 19.1656)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_398_" x="278.8" y="365.7" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -23.1433 19.179)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_397_" class="st1" points="291.4,375.8 285.8,377.3 283.5,366.9 289.1,365.4 		"/>
+		<polygon id="XMLID_396_" class="st1" points="277.8,376.7 283.5,377.5 284.5,366.8 278.8,366 		"/>
+	</g>
+	<text id="XMLID_394_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 326.6355 366.2763)" class="st1 st2 st3">1栋</text>
+	<text id="XMLID_393_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 309.6117 374.9429)" class="st4 st2 st3">{{numA[0]}}</text>
+	<text id="XMLID_392_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 319.8065 374.2806)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_472_">
+
+		<rect id="XMLID_481_" @click="()=>location.hash='#/info/4/6'" x="390.8" y="152.9" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -9.7477 27.8261)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_476_">
+
+			<rect id="XMLID_480_" x="395.9" y="158.7" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -9.4769 26.3318)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_479_" x="396" y="160.8" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -9.6136 26.3452)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_478_" class="st1" points="408.6,170.9 403,172.4 400.7,162 406.3,160.5 		"/>
+		<polygon id="XMLID_477_" class="st1" points="395,171.8 400.7,172.6 401.7,161.9 396,161.1 		"/>
+	</g>
+	<text id="XMLID_475_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 438.0509 161.3706)" class="st1 st2 st3">西6舍</text>
+	<text id="XMLID_474_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 426.806 170.0362)" class="st4 st2 st3">{{numB[5]}}</text>
+	<text id="XMLID_473_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 437.0008 169.3739)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_492_">
+
+		<rect id="XMLID_501_" @click="()=>location.hash='#/info/4/3'" x="383.7" y="68.2" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -4.2678 27.1852)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_496_">
+
+			<rect id="XMLID_500_" x="388.7" y="73.9" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -3.9969 25.6909)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_499_" x="388.9" y="76" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -4.1336 25.7043)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_498_" class="st1" points="401.5,86.1 395.9,87.6 393.6,77.2 399.2,75.7 		"/>
+		<polygon id="XMLID_497_" class="st1" points="387.9,87 393.6,87.8 394.5,77.1 388.8,76.4 		"/>
+	</g>
+	<text id="XMLID_495_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 431.5348 76.605)" class="st1 st2 st3">西3舍</text>
+	<text id="XMLID_494_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 419.6705 85.2709)" class="st4 st2 st3">{{numB[2]}}</text>
+	<text id="XMLID_493_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 429.8653 84.6086)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_646_">
+
+		<rect id="XMLID_655_" @click="()=>location.hash='#/info/4/16'" x="632.8" y="135" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 12.2493 -47.5473)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_650_">
+
+			<rect id="XMLID_654_" x="638.8" y="137.7" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 11.6166 -45.9844)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_653_" x="638.6" y="139.8" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 11.7682 -45.9679)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_652_" class="st1" points="649.9,150.8 644.1,151.6 643.3,140.9 649,140.2 		"/>
+		<polygon id="XMLID_651_" class="st1" points="636.3,149.9 641.9,151.4 644.2,141 638.7,139.4 		"/>
+	</g>
+	<text id="XMLID_649_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 677.8218 145.7978)" class="st1 st2 st3">西16舍</text>
+	<text id="XMLID_648_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 668.0012 152.482)" class="st4 st2 st3">{{numB[15]}}</text>
+	<text id="XMLID_647_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 678.1905 153.2172)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_666_">
+
+		<rect id="XMLID_675_" @click="()=>location.hash='#/info/4/17'" x="712.7" y="113.5" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 10.9099 -53.353)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_670_">
+
+			<rect id="XMLID_674_" x="718.7" y="116.2" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 10.2772 -51.7901)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_673_" x="718.5" y="118.3" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 10.4288 -51.7736)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_672_" class="st1" points="729.8,129.4 724,130.1 723.2,119.4 728.9,118.7 		"/>
+		<polygon id="XMLID_671_" class="st1" points="716.2,128.4 721.8,129.9 724.1,119.5 718.6,117.9 		"/>
+	</g>
+	<text id="XMLID_669_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 760.1976 124.3075)" class="st1 st2 st3">西7舍</text>
+	<text id="XMLID_668_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 747.9001 130.9912)" class="st4 st2 st3">{{numB[6]}}</text>
+	<text id="XMLID_667_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 758.0904 131.7265)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_484_">
+
+		<rect id="XMLID_872_" @click="()=>location.hash='#/info/4/9'" x="643.1" y="12.2" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 3.4353 -48.6047)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_488_">
+
+			<rect id="XMLID_871_" x="649.1" y="14.8" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 2.8025 -47.0418)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_754_" x="648.9" y="17" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 2.9542 -47.0254)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_490_" class="st1" points="660.1,28 654.4,28.7 653.6,18.1 659.3,17.3 		"/>
+		<polygon id="XMLID_489_" class="st1" points="646.6,27 652.1,28.6 654.5,18.1 648.9,16.6 		"/>
+	</g>
+	<text id="XMLID_487_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 690.5664 22.9514)" class="st1 st2 st3">西9舍</text>
+	<text id="XMLID_486_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 678.2686 29.6355)" class="st4 st2 st3">{{numB[8]}}</text>
+	<text id="XMLID_485_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 688.4579 30.3707)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_656_">
+
+		<rect id="XMLID_665_" @click="()=>location.hash='#/info/4/15'" x="630.9" y="163.1" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 14.2612 -47.3335)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_660_">
+
+			<rect id="XMLID_664_" x="636.8" y="165.7" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 13.6285 -45.7706)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_663_" x="636.7" y="167.8" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 13.7801 -45.7542)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_662_" class="st1" points="647.9,178.9 642.2,179.6 641.3,168.9 647.1,168.2 		"/>
+		<polygon id="XMLID_661_" class="st1" points="634.3,177.9 639.9,179.4 642.3,169 636.7,167.5 		"/>
+	</g>
+	<text id="XMLID_659_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 675.6539 173.8242)" class="st1 st2 st3">西15舍</text>
+	<text id="XMLID_658_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 666.0395 180.5087)" class="st4 st2 st3">{{numB[14]}}</text>
+	<text id="XMLID_657_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 676.2298 181.244)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_676_">
+
+		<rect id="XMLID_685_" @click="()=>location.hash='#/info/4/5'" x="628.8" y="200.7" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 16.9649 -47.09)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_680_">
+
+			<rect id="XMLID_684_" x="634.8" y="203.4" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 16.3322 -45.5271)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_683_" x="634.7" y="205.5" transform="matrix(0.9974 7.196535e-002 -7.196535e-002 0.9974 16.4838 -45.5107)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_682_" class="st1" points="645.9,216.5 640.2,217.3 639.3,206.6 645,205.8 		"/>
+		<polygon id="XMLID_681_" class="st1" points="632.3,215.5 637.9,217.1 640.2,206.7 634.7,205.1 		"/>
+	</g>
+	<text id="XMLID_679_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 676.3101 211.467)" class="st1 st2 st3">西5舍</text>
+	<text id="XMLID_678_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 664.0134 218.1509)" class="st4 st2 st3">{{numB[4]}}</text>
+	<text id="XMLID_677_" transform="matrix(0.8695 6.273893e-002 -7.196977e-002 0.9974 674.2028 218.8861)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_502_">
+
+		<rect id="XMLID_511_" @click="()=>location.hash='#/info/4/1'" x="469.2" y="62.4" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -3.7131 32.7174)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_506_">
+
+			<rect id="XMLID_510_" x="474.3" y="68.1" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -3.4423 31.2232)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_509_" x="474.4" y="70.2" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -3.579 31.2365)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_508_" class="st1" points="487,80.4 481.4,81.9 479.1,71.4 484.7,69.9 		"/>
+		<polygon id="XMLID_507_" class="st1" points="473.4,81.2 479.1,82 480.1,71.4 474.3,70.6 		"/>
+	</g>
+	<text id="XMLID_505_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 516.8552 70.8248)" class="st1 st2 st3">西1舍</text>
+	<text id="XMLID_504_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 505.198 79.4903)" class="st4 st2 st3">{{numB[0]}}</text>
+	<text id="XMLID_503_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 515.3928 78.828)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_512_">
+
+		<rect id="XMLID_521_" @click="()=>location.hash='#/info/4/2'" x="467" y="28.1" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -1.4983 32.504)" class="st0" width="66.3" height="22.4"/>
+	<g id="XMLID_516_">
+
+			<rect id="XMLID_520_" x="472.1" y="33.9" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -1.2274 31.0097)" class="st1" width="10.3" height="1.1"/>
+
+			<rect id="XMLID_519_" x="472.2" y="36" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -1.3641 31.0231)" class="st1" width="10.3" height="1.1"/>
+		<polygon id="XMLID_518_" class="st1" points="484.8,46.1 479.3,47.6 476.9,37.2 482.5,35.7 		"/>
+		<polygon id="XMLID_517_" class="st1" points="471.2,47 477,47.8 477.9,37.1 472.2,36.3 		"/>
+	</g>
+	<text id="XMLID_515_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 514.261 36.587)" class="st1 st2 st3">西2舍</text>
+	<text id="XMLID_514_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 503.0166 45.2533)" class="st4 st2 st3">{{numB[1]}}</text>
+	<text id="XMLID_513_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 513.2114 44.5909)" class="st1 st2 st3">条表白</text>
+</g>
+<g id="XMLID_965_">
+
+		<rect id="XMLID_491_" x="387.3" y="107.6" transform="matrix(0.9979 -6.482561e-002 6.482561e-002 0.9979 -7.1681 27.5141)" class="st5" width="66.3" height="33.3"/>
+	<text id="XMLID_483_" transform="matrix(0.8699 -5.651469e-002 6.482976e-002 0.9979 410.7957 127.1941)" class="st1 st2 st3">西一食堂</text>
+</g>
+<g id="XMLID_337_">
+
+		<rect id="XMLID_348_" @click="()=>location.hash='#/info/2/11'" x="19.2" y="375.9" transform="matrix(0.9983 -5.885403e-002 5.885403e-002 0.9983 -22.694 3.7502)" class="st6" width="66.3" height="22.4"/>
+	<text id="XMLID_347_" transform="matrix(0.8702 -5.130174e-002 5.884982e-002 0.9983 69.9606 384.5012)" class="st1 st2 st3">11栋</text>
+	<text id="XMLID_346_" transform="matrix(0.8702 -5.130174e-002 5.884982e-002 0.9983 55.1551 393.0847)" class="st7 st2 st3">{{numA[10]}}</text>
+	<text id="XMLID_345_" transform="matrix(0.8702 -5.130174e-002 5.884982e-002 0.9983 65.3537 392.4834)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_338_">
+
+			<ellipse id="XMLID_344_" transform="matrix(0.9983 -5.885403e-002 5.885403e-002 0.9983 -22.8097 2.1561)" class="st1" cx="25.2" cy="388.3" rx="2.4" ry="2.8"/>
+
+			<ellipse id="XMLID_343_" transform="matrix(0.9983 -5.885403e-002 5.885403e-002 0.9983 -22.7795 2.4967)" class="st1" cx="31" cy="388" rx="2.4" ry="2.8"/>
+		<path id="XMLID_342_" class="st1" d="M31.8,387.9l-3.1-6.3c-0.5-0.9-1.7-0.9-2,0.1l-2.3,6.6l-0.1-1l2.3-6.6c0.3-1,1.6-1.1,2-0.1
+			l3.1,6.3L31.8,387.9z"/>
+
+			<rect id="XMLID_341_" x="27" y="387.7" transform="matrix(0.9983 -5.885403e-002 5.885403e-002 0.9983 -22.797 2.3227)" class="st1" width="2.1" height="1"/>
+
+			<rect id="XMLID_340_" x="24.7" y="393.3" transform="matrix(0.9983 -5.885403e-002 5.885403e-002 0.9983 -23.1188 2.3626)" class="st1" width="7.7" height="0.8"/>
+		<polygon id="XMLID_339_" class="st1" points="29.6,396.4 27.4,396.6 26,394.2 30.8,393.9 		"/>
+	</g>
+</g>
+<g id="XMLID_359_">
+
+		<rect id="XMLID_370_" @click="()=>location.hash='#/info/2/4'" x="183.9" y="328.2" transform="matrix(0.9983 -5.885403e-002 5.885403e-002 0.9983 -19.597 13.3605)" class="st6" width="66.3" height="22.4"/>
+	<text id="XMLID_369_" transform="matrix(0.8702 -5.130174e-002 5.884982e-002 0.9983 236.1026 336.7313)" class="st1 st2 st3">4栋</text>
+	<text id="XMLID_368_" transform="matrix(0.8702 -5.130174e-002 5.884982e-002 0.9983 219.8526 345.3128)" class="st7 st2 st3">{{numA[10]}}</text>
+	<text id="XMLID_367_" transform="matrix(0.8702 -5.130174e-002 5.884982e-002 0.9983 230.0512 344.7116)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_360_">
+
+			<ellipse id="XMLID_366_" transform="matrix(0.9983 -5.885403e-002 5.885403e-002 0.9983 -19.7127 11.7664)" class="st1" cx="189.9" cy="340.5" rx="2.4" ry="2.8"/>
+
+			<ellipse id="XMLID_365_" transform="matrix(0.9983 -5.885403e-002 5.885403e-002 0.9983 -19.6825 12.107)" class="st1" cx="195.7" cy="340.2" rx="2.4" ry="2.8"/>
+		<path id="XMLID_364_" class="st1" d="M196.5,340.2l-3.1-6.3c-0.5-0.9-1.7-0.9-2,0.1l-2.3,6.6l-0.1-1l2.3-6.6c0.3-1,1.6-1.1,2-0.1
+			l3.1,6.3L196.5,340.2z"/>
+
+			<rect id="XMLID_363_" x="191.7" y="339.9" transform="matrix(0.9983 -5.885403e-002 5.885403e-002 0.9983 -19.7 11.933)" class="st1" width="2.1" height="1"/>
+
+			<rect id="XMLID_362_" x="189.4" y="345.5" transform="matrix(0.9983 -5.885403e-002 5.885403e-002 0.9983 -20.0218 11.9729)" class="st1" width="7.7" height="0.8"/>
+		<polygon id="XMLID_361_" class="st1" points="194.3,348.7 192.1,348.8 190.7,346.4 195.5,346.2 		"/>
+	</g>
+</g>
+<g id="XMLID_401_">
+
+		<rect id="XMLID_412_" @click="()=>location.hash='#/info/2/9'" x="97.6" y="280.8" transform="matrix(1 2.322899e-003 -2.322899e-003 1 0.6786 -0.3029)" class="st6" width="66.3" height="22.4"/>
+	<text id="XMLID_411_" transform="matrix(0.8717 2.022431e-003 -2.319994e-003 1 150.2096 290.3952)" class="st1 st2 st3">9栋</text>
+	<text id="XMLID_410_" transform="matrix(0.8717 2.022431e-003 -2.319994e-003 1 133.2552 298.1061)" class="st7 st2 st3">{{numB[8]}}</text>
+	<text id="XMLID_409_" transform="matrix(0.8717 2.022431e-003 -2.319994e-003 1 143.4711 298.1298)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_402_">
+
+			<ellipse id="XMLID_408_" transform="matrix(1 2.322899e-003 -2.322899e-003 1 0.6774 -0.2399)" class="st1" cx="103.6" cy="291.5" rx="2.4" ry="2.8"/>
+
+			<ellipse id="XMLID_407_" transform="matrix(1 2.322899e-003 -2.322899e-003 1 0.6774 -0.2534)" class="st1" cx="109.4" cy="291.5" rx="2.4" ry="2.8"/>
+		<path id="XMLID_406_" class="st1" d="M110.2,291.5l-2.7-6.4c-0.4-1-1.6-1-2,0l-2.7,6.4l0-1l2.7-6.4c0.4-1,1.6-1,2,0l2.7,6.4
+			L110.2,291.5z"/>
+		<rect id="XMLID_405_" x="105.4" y="291.1" class="st1" width="2.1" height="1"/>
+
+			<rect id="XMLID_404_" x="102.8" y="296.6" transform="matrix(1 2.322899e-003 -2.322899e-003 1 0.6903 -0.2469)" class="st1" width="7.7" height="0.8"/>
+		<polygon id="XMLID_403_" class="st1" points="107.5,299.9 105.3,299.9 104,297.4 108.8,297.4 		"/>
+	</g>
+</g>
+<g id="XMLID_443_">
+
+		<rect id="XMLID_454_" @click="()=>location.hash='#/info/2/2'" x="273" y="242.6" transform="matrix(1 2.322899e-003 -2.322899e-003 1 0.5904 -0.7103)" class="st6" width="66.3" height="22.4"/>
+	<text id="XMLID_453_" transform="matrix(0.8717 2.022431e-003 -2.319994e-003 1 325.7581 252.2154)" class="st1 st2 st3">2栋</text>
+	<text id="XMLID_452_" transform="matrix(0.8717 2.022431e-003 -2.319994e-003 1 308.5966 259.9268)" class="st7 st2 st3">{{numB[1]}}</text>
+	<text id="XMLID_451_" transform="matrix(0.8717 2.022431e-003 -2.319994e-003 1 318.8129 259.9505)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_444_">
+
+			<ellipse id="XMLID_450_" transform="matrix(1 2.322899e-003 -2.322899e-003 1 0.5892 -0.6473)" class="st1" cx="279" cy="253.3" rx="2.4" ry="2.8"/>
+
+			<ellipse id="XMLID_449_" transform="matrix(1 2.322899e-003 -2.322899e-003 1 0.5892 -0.6608)" class="st1" cx="284.8" cy="253.3" rx="2.4" ry="2.8"/>
+		<path id="XMLID_448_" class="st1" d="M285.5,253.4l-2.7-6.4c-0.4-1-1.6-1-2,0l-2.7,6.4l0-1l2.7-6.4c0.4-1,1.6-1,2,0l2.7,6.4
+			L285.5,253.4z"/>
+		<rect id="XMLID_447_" x="280.7" y="252.9" class="st1" width="2.1" height="1"/>
+
+			<rect id="XMLID_446_" x="278.1" y="258.5" transform="matrix(1 2.322899e-003 -2.322899e-003 1 0.6021 -0.6543)" class="st1" width="7.7" height="0.8"/>
+		<polygon id="XMLID_445_" class="st1" points="282.9,261.7 280.7,261.7 279.4,259.3 284.2,259.3 		"/>
+	</g>
+</g>
+<g id="XMLID_576_">
+
+		<rect id="XMLID_587_" @click="()=>location.hash='#/info/4/8'" x="638.3" y="69" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 7.1527 -46.2414)" class="st6" width="66.3" height="22.4"/>
+	<text id="XMLID_586_" transform="matrix(0.8697 6.028059e-002 -6.914974e-002 0.9976 686.0225 79.7137)" class="st1 st2 st3">西8舍</text>
+	<text id="XMLID_585_" transform="matrix(0.8697 6.028059e-002 -6.914974e-002 0.9976 673.5389 86.4403)" class="st7 st2 st3">{{numB[7]}}</text>
+	<text id="XMLID_584_" transform="matrix(0.8697 6.028059e-002 -6.914974e-002 0.9976 683.7302 87.1467)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_577_">
+
+			<ellipse id="XMLID_583_" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 6.9284 -44.3766)" class="st1" cx="644.4" cy="77.9" rx="2.4" ry="2.8"/>
+
+			<ellipse id="XMLID_582_" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 6.97 -44.7763)" class="st1" cx="650.2" cy="78.3" rx="2.4" ry="2.8"/>
+		<path id="XMLID_581_" class="st1" d="M651,78.4l-2.3-6.6c-0.3-1-1.5-1.1-2-0.1l-3.2,6.2l0.1-1l3.2-6.2c0.5-0.9,1.7-0.8,2,0.1
+			l2.3,6.6L651,78.4z"/>
+
+			<rect id="XMLID_580_" x="646.2" y="77.6" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 6.9512 -44.5716)" class="st1" width="2.1" height="1"/>
+
+			<rect id="XMLID_579_" x="643.2" y="83.2" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 7.3313 -44.5454)" class="st1" width="7.7" height="0.8"/>
+		<polygon id="XMLID_578_" class="st1" points="647.8,86.5 645.6,86.3 644.4,83.8 649.2,84.2 		"/>
+	</g>
+</g>
+<g id="XMLID_885_">
+	<rect id="XMLID_455_" x="348.6" y="226.5" class="st5" width="22" height="39.1"/>
+	<g id="XMLID_456_">
+		<text id="XMLID_15_" transform="matrix(0.8717 0 0 1 356.7199 241.4209)"><tspan x="0" y="0" class="st1 st2 st3">百</tspan><tspan x="0" y="7.2" class="st1 st2 st3">惠</tspan><tspan x="0" y="14.4" class="st1 st2 st3">园</tspan></text>
+	</g>
+</g>
+<g id="XMLID_882_">
+
+		<rect id="XMLID_458_" x="2.4" y="356.1" transform="matrix(0.9974 -7.233477e-002 7.233477e-002 0.9974 -25.5619 14.032)" class="st8" width="357.1" height="7.6"/>
+
+		<rect id="XMLID_460_" x="85.9" y="311.9" transform="matrix(1 -2.855826e-003 2.855826e-003 1 -0.9006 0.6809)" class="st8" width="304.3" height="7.6"/>
+
+		<rect id="XMLID_471_" x="376.1" y="185.1" transform="matrix(0.9986 -5.310800e-002 5.310800e-002 0.9986 -9.382 24.6695)" class="st8" width="166.7" height="7.6"/>
+
+		<rect id="XMLID_690_" x="545.3" y="96.1" transform="matrix(0.9971 7.558176e-002 -7.558176e-002 0.9971 9.4722 -50.5753)" class="st8" width="255.3" height="7.6"/>
+
+		<rect id="XMLID_691_" x="536.6" y="189.6" transform="matrix(0.9971 7.558176e-002 -7.558176e-002 0.9971 16.5149 -49.6491)" class="st8" width="255.3" height="7.6"/>
+
+		<rect id="XMLID_462_" x="86.1" y="270.1" transform="matrix(1 -2.855846e-003 2.855846e-003 1 -0.7814 0.4985)" class="st8" width="176.1" height="7.6"/>
+
+		<rect id="XMLID_463_" x="256.2" y="284.1" transform="matrix(0.8567 0.5158 -0.5158 0.8567 189.3287 -105.7963)" class="st8" width="57.8" height="7.6"/>
+
+		<rect id="XMLID_459_" x="0.2" y="327.8" transform="matrix(0.9974 -7.233477e-002 7.233477e-002 0.9974 -23.8639 4.1417)" class="st8" width="90.1" height="7.6"/>
+
+		<rect id="XMLID_687_" x="359.5" y="92.7" transform="matrix(0.9974 -7.233477e-002 7.233477e-002 0.9974 -5.7896 33.1513)" class="st8" width="190.6" height="7.6"/>
+
+		<rect id="XMLID_693_" x="474.1" y="132" transform="matrix(0.9974 -7.233477e-002 7.233477e-002 0.9974 -8.5432 35.6807)" class="st8" width="28.4" height="7.6"/>
+
+		<rect id="XMLID_457_" x="54.4" y="326" transform="matrix(-7.768030e-002 -0.997 0.997 -7.768030e-002 -231.8658 445.1442)" class="st8" width="71.1" height="7.6"/>
+
+		<rect id="XMLID_466_" x="135.2" y="354.2" transform="matrix(-7.768030e-002 -0.997 0.997 -7.768030e-002 -165.7949 562.6282)" class="st8" width="84.4" height="7.6"/>
+
+		<rect id="XMLID_686_" x="411" y="45" transform="matrix(-7.768030e-002 -0.997 0.997 -7.768030e-002 444.2907 508.5568)" class="st8" width="92.8" height="7.6"/>
+
+		<rect id="XMLID_692_" x="454.4" y="112.1" transform="matrix(-7.768030e-002 -0.997 0.997 -7.768030e-002 397.7651 599.784)" class="st8" width="43.9" height="7.6"/>
+
+		<rect id="XMLID_694_" x="473.7" y="155.2" transform="matrix(-7.768030e-002 -0.997 0.997 -7.768030e-002 380.8907 670.28)" class="st8" width="53.6" height="7.6"/>
+
+		<rect id="XMLID_688_" x="492.7" y="40" transform="matrix(-7.768030e-002 -0.997 0.997 -7.768030e-002 541.0913 588.0807)" class="st8" width="99.7" height="7.6"/>
+
+		<rect id="XMLID_469_" x="310" y="259.2" transform="matrix(-5.295194e-002 -0.9986 0.9986 -5.295194e-002 141.4341 660.1488)" class="st8" width="147.5" height="7.6"/>
+
+		<rect id="XMLID_689_" x="496.7" y="133.8" transform="matrix(8.278982e-002 -0.9966 0.9966 8.278982e-002 360.5636 666.8607)" class="st8" width="91.7" height="7.6"/>
+
+		<rect id="XMLID_461_" x="75.5" y="278.7" transform="matrix(6.574657e-002 -0.9978 0.9978 6.574657e-002 -199.6481 351.781)" class="st8" width="25.1" height="7.6"/>
+
+		<rect id="XMLID_465_" x="154.4" y="290.7" transform="matrix(8.538871e-003 -1 1 8.538871e-003 -121.8906 466.1154)" class="st8" width="39.5" height="7.6"/>
+	<circle id="XMLID_464_" class="st5" cx="319.7" cy="311.3" r="19.8"/>
+	<circle id="XMLID_468_" class="st5" cx="174.2" cy="314.4" r="13.1"/>
+</g>
+<g id="XMLID_200_">
+
+		<rect id="XMLID_531_" x="549.9" y="5.1" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 2.991 -44.8758)" class="st9" width="66.3" height="22.4"/>
+	<g id="XMLID_526_">
+
+			<rect id="XMLID_530_" @click="()=>location.hash='#/info/4/11'" x="566.7" y="9.4" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 2.4554 -43.9783)" class="st1" width="8.8" height="0.9"/>
+
+			<rect id="XMLID_529_" x="566.6" y="11.2" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 2.5938 -43.9622)" class="st1" width="8.8" height="0.9"/>
+		<polygon id="XMLID_528_" class="st1" points="576.1,20.6 571.2,21.2 570.5,12.1 575.4,11.5 		"/>
+		<polygon id="XMLID_527_" class="st1" points="564.5,19.7 569.3,21.1 571.3,12.2 566.6,10.8 		"/>
+	</g>
+	<text id="XMLID_525_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 595.7203 15.9736)" class="st1 st2 st3">西11舍</text>
+	<text id="XMLID_524_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 585.0402 22.5805)" class="st10 st2 st3">{{numB[10]}}</text>
+	<text id="XMLID_523_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 595.2256 23.3677)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_522_">
+		<circle id="XMLID_537_" class="st1" cx="555.6" cy="14" r="2.4"/>
+		<circle id="XMLID_536_" class="st1" cx="561.3" cy="14.4" r="2.4"/>
+		<path id="XMLID_535_" class="st1" d="M562.1,14.5l-2.3-5.8c-0.3-0.9-1.5-1-2-0.2l-3.1,5.3l0.1-0.9l3.1-5.3c0.5-0.8,1.7-0.7,2,0.2
+			l2.3,5.8L562.1,14.5z"/>
+
+			<rect id="XMLID_534_" x="557.3" y="13.8" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 2.7579 -42.9831)" class="st1" width="2.1" height="0.8"/>
+
+			<rect id="XMLID_533_" x="554.4" y="18.7" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 3.1238 -42.9554)" class="st1" width="7.7" height="0.7"/>
+		<polygon id="XMLID_532_" class="st1" points="558.9,21.5 556.7,21.3 555.6,19.2 560.3,19.5 		"/>
+	</g>
+</g>
+<g id="XMLID_557_">
+
+		<rect id="XMLID_575_" @click="()=>location.hash='#/info/4/10'" x="561.7" y="62.7" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 7.4651 -45.617)" class="st9" width="66.3" height="22.4"/>
+	<g id="XMLID_569_">
+
+			<rect id="XMLID_574_" x="578.6" y="67" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 6.9295 -44.7195)" class="st1" width="8.8" height="0.9"/>
+
+			<rect id="XMLID_573_" x="578.4" y="68.8" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 7.0679 -44.7034)" class="st1" width="8.8" height="0.9"/>
+		<polygon id="XMLID_571_" class="st1" points="588,78.2 583.1,78.8 582.4,69.7 587.3,69.1 		"/>
+		<polygon id="XMLID_570_" class="st1" points="576.4,77.3 581.1,78.7 583.2,69.8 578.4,68.4 		"/>
+	</g>
+	<text id="XMLID_568_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 606.7368 73.5807)" class="st1 st2 st3">西10舍</text>
+	<text id="XMLID_567_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 596.8823 80.188)" class="st10 st2 st3">{{numB[9]}}</text>
+	<text id="XMLID_566_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 607.0677 80.9751)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_558_">
+		<circle id="XMLID_565_" class="st1" cx="567.4" cy="71.6" r="2.4"/>
+		<circle id="XMLID_563_" class="st1" cx="573.2" cy="72.1" r="2.4"/>
+		<path id="XMLID_562_" class="st1" d="M573.9,72.1l-2.3-5.8c-0.3-0.9-1.5-1-2-0.2l-3.1,5.3l0.1-0.9l3.1-5.3c0.5-0.8,1.7-0.7,2,0.2
+			l2.3,5.8L573.9,72.1z"/>
+
+			<rect id="XMLID_561_" x="569.2" y="71.4" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 7.232 -43.7244)" class="st1" width="2.1" height="0.8"/>
+
+			<rect id="XMLID_560_" x="566.2" y="76.3" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 7.5979 -43.6966)" class="st1" width="7.7" height="0.7"/>
+		<polygon id="XMLID_559_" class="st1" points="570.8,79.1 568.6,78.9 567.5,76.8 572.2,77.1 		"/>
+	</g>
+</g>
+<g id="XMLID_605_">
+
+		<rect id="XMLID_616_" @click="()=>location.hash='#/info/4/17'" x="635.3" y="108.6" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 9.8808 -45.9388)" class="st6" width="66.3" height="22.4"/>
+	<text id="XMLID_615_" transform="matrix(0.8697 6.028059e-002 -6.914974e-002 0.9976 680.5385 119.2691)" class="st1 st2 st3">西17舍</text>
+	<text id="XMLID_614_" transform="matrix(0.8697 6.028059e-002 -6.914974e-002 0.9976 670.5313 125.9957)" class="st7 st2 st3">{{numB[16]}}</text>
+	<text id="XMLID_613_" transform="matrix(0.8697 6.028059e-002 -6.914974e-002 0.9976 680.7227 126.7021)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_606_">
+
+			<ellipse id="XMLID_612_" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 9.6565 -44.074)" class="st1" cx="641.4" cy="117.4" rx="2.4" ry="2.8"/>
+
+			<ellipse id="XMLID_611_" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 9.6982 -44.4737)" class="st1" cx="647.2" cy="117.8" rx="2.4" ry="2.8"/>
+		<path id="XMLID_610_" class="st1" d="M648,117.9l-2.3-6.6c-0.3-1-1.5-1.1-2-0.1l-3.2,6.2l0.1-1l3.2-6.2c0.5-0.9,1.7-0.8,2,0.1
+			l2.3,6.6L648,117.9z"/>
+
+			<rect id="XMLID_609_" x="643.2" y="117.2" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 9.6793 -44.269)" class="st1" width="2.1" height="1"/>
+
+			<rect id="XMLID_608_" x="640.2" y="122.8" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 10.0594 -44.2427)" class="st1" width="7.7" height="0.8"/>
+		<polygon id="XMLID_607_" class="st1" points="644.8,126.1 642.6,125.9 641.4,123.4 646.2,123.7 		"/>
+	</g>
+</g>
+<g id="XMLID_634_">
+
+		<rect id="XMLID_645_" @click="()=>location.hash='#/info/4/14'" x="554.7" y="156.9" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 13.0301 -40.2446)" class="st6" width="66.3" height="22.4"/>
+	<text id="XMLID_644_" transform="matrix(0.8697 6.028059e-002 -6.914974e-002 0.9976 599.6623 167.6029)" class="st1 st2 st3">西14舍</text>
+	<text id="XMLID_643_" transform="matrix(0.8697 6.028059e-002 -6.914974e-002 0.9976 589.8606 174.3289)" class="st7 st2 st3">{{numB[13]}}</text>
+	<text id="XMLID_642_" transform="matrix(0.8697 6.028059e-002 -6.914974e-002 0.9976 600.052 175.0353)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_635_">
+
+			<ellipse id="XMLID_641_" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 12.8057 -38.3797)" class="st1" cx="560.7" cy="165.8" rx="2.4" ry="2.8"/>
+
+			<ellipse id="XMLID_640_" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 12.8474 -38.7794)" class="st1" cx="566.5" cy="166.2" rx="2.4" ry="2.8"/>
+		<path id="XMLID_639_" class="st1" d="M567.3,166.3l-2.3-6.6c-0.3-1-1.5-1.1-2-0.1l-3.2,6.2l0.1-1l3.2-6.2c0.5-0.9,1.7-0.8,2,0.1
+			l2.3,6.6L567.3,166.3z"/>
+
+			<rect id="XMLID_638_" x="562.5" y="165.5" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 12.8285 -38.5748)" class="st1" width="2.1" height="1"/>
+
+			<rect id="XMLID_637_" x="559.5" y="171.1" transform="matrix(0.9976 6.915160e-002 -6.915160e-002 0.9976 13.2087 -38.5485)" class="st1" width="7.7" height="0.8"/>
+		<polygon id="XMLID_636_" class="st1" points="564.1,174.4 561.9,174.2 560.8,171.7 565.5,172.1 		"/>
+	</g>
+</g>
+<g id="XMLID_588_">
+
+		<rect id="XMLID_604_" @click="()=>location.hash='#/info/4/12'" x="558.7" y="102.3" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 10.5041 -45.2677)" class="st9" width="66.3" height="22.4"/>
+	<g id="XMLID_599_">
+
+			<rect id="XMLID_603_" x="575.6" y="106.5" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 9.9685 -44.3702)" class="st1" width="8.8" height="0.9"/>
+
+			<rect id="XMLID_602_" x="575.4" y="108.3" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 10.1069 -44.3541)" class="st1" width="8.8" height="0.9"/>
+		<polygon id="XMLID_601_" class="st1" points="585,117.8 580.1,118.4 579.4,109.3 584.3,108.7 		"/>
+		<polygon id="XMLID_600_" class="st1" points="573.4,116.9 578.1,118.2 580.2,109.4 575.4,108 		"/>
+	</g>
+	<text id="XMLID_598_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 603.5236 113.1363)" class="st1 st2 st3">西12舍</text>
+	<text id="XMLID_597_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 593.8746 119.7435)" class="st10 st2 st3">{{numB[11]}}</text>
+	<text id="XMLID_596_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 604.061 120.5307)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_589_">
+		<circle id="XMLID_595_" class="st1" cx="564.4" cy="111.2" r="2.4"/>
+		<circle id="XMLID_594_" class="st1" cx="570.1" cy="111.6" r="2.4"/>
+		<path id="XMLID_593_" class="st1" d="M570.9,111.7l-2.3-5.8c-0.3-0.9-1.5-1-2-0.2l-3.1,5.3l0.1-0.9l3.1-5.3c0.5-0.8,1.7-0.7,2,0.2
+			l2.3,5.8L570.9,111.7z"/>
+
+			<rect id="XMLID_592_" x="566.2" y="111" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 10.271 -43.375)" class="st1" width="2.1" height="0.8"/>
+
+			<rect id="XMLID_591_" x="563.2" y="115.8" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 10.6369 -43.3473)" class="st1" width="7.7" height="0.7"/>
+		<polygon id="XMLID_590_" class="st1" points="567.8,118.7 565.5,118.5 564.4,116.3 569.2,116.7 		"/>
+	</g>
+</g>
+<g id="XMLID_617_">
+
+		<rect id="XMLID_633_" @click="()=>location.hash='#/info/4/13'" x="556.7" y="129.2" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 12.5711 -45.0291)" class="st9" width="66.3" height="22.4"/>
+	<g id="XMLID_628_">
+
+			<rect id="XMLID_632_" x="573.5" y="133.4" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 12.0354 -44.1315)" class="st1" width="8.8" height="0.9"/>
+
+			<rect id="XMLID_631_" x="573.4" y="135.2" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 12.1738 -44.1155)" class="st1" width="8.8" height="0.9"/>
+		<polygon id="XMLID_630_" class="st1" points="582.9,144.7 578,145.3 577.3,136.2 582.2,135.6 		"/>
+		<polygon id="XMLID_629_" class="st1" points="571.3,143.8 576,145.1 578.1,136.3 573.4,134.9 		"/>
+	</g>
+	<text id="XMLID_627_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 601.8765 140.0403)" class="st1 st2 st3">西13舍</text>
+	<text id="XMLID_626_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 591.8159 146.6475)" class="st10 st2 st3">{{numB[12]}}</text>
+	<text id="XMLID_625_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 602.0013 147.4346)" class="st1 st2 st3">条表白</text>
+	<g id="XMLID_618_">
+		<circle id="XMLID_624_" class="st1" cx="562.4" cy="138.1" r="2.4"/>
+		<circle id="XMLID_623_" class="st1" cx="568.1" cy="138.5" r="2.4"/>
+		<path id="XMLID_622_" class="st1" d="M568.9,138.6l-2.3-5.8c-0.3-0.9-1.5-1-2-0.2l-3.1,5.3l0.1-0.9l3.1-5.3c0.5-0.8,1.7-0.7,2,0.2
+			l2.3,5.8L568.9,138.6z"/>
+
+			<rect id="XMLID_621_" x="564.1" y="137.9" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 12.3379 -43.1364)" class="st1" width="2.1" height="0.8"/>
+
+			<rect id="XMLID_620_" x="561.1" y="142.7" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 12.7038 -43.1086)" class="st1" width="7.7" height="0.7"/>
+		<polygon id="XMLID_619_" class="st1" points="565.7,145.6 563.5,145.4 562.4,143.2 567.1,143.6 		"/>
+	</g>
+</g>
+<g id="XMLID_467_">
+
+		<rect id="XMLID_572_" x="563.6" y="35" transform="matrix(0.997 7.705446e-002 -7.705446e-002 0.997 5.3331 -45.8403)" class="st5" width="66.3" height="22.4"/>
+	<text id="XMLID_564_" transform="matrix(0.8691 6.716739e-002 -7.704979e-002 0.997 588.4258 48.1231)" class="st1 st2 st3">枫林湾</text>
+</g>
+</svg>
+  </div>
+</template>
+
+<script>
+import axios from '@/axios'
+
+export default {
+  name: 'zs',
+  data () {
+    let __this = this;
+
+    axios.get("message/count?region=2")
+      .then((result)=>{
+        __this.numA = result;
+      })
+      .catch((e)=>{
+        console.log(e)
+      })
+
+    axios.get("message/count?region=4")
+      .then((result)=>{
+        __this.numB = result;
+      })
+      .catch((e)=>{
+        console.log(e)
+      })
+
+    return {
+      numA : [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      numB : [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
+      location : location
+    }
+  }
+}
+</script>
+
+<style scoped>
+    .zs{
+        width: 100%;
+        max-width: 100vw;
+        padding-top: 5rem;
+    }
+    .zs svg{
+        width: 400%;
+    }
+    .st0{fill:#87CEFF;}
+    .st1{fill:#FFFFFF;}
+    .st2{font-family:'FZLTXHK--GBK1-0';}
+    .st3{font-size:6.0193px;}
+    .st4{fill:#2083BA;}
+    .st5{fill:#CDCDCD;}
+    .st6{fill:#FF8181;}
+    .st7{fill:#C63030;}
+    .st8{fill:#DBDBDB;}
+    .st9{fill:#FFAD1D;}
+    .st10{fill:#A86700;}
+
+</style>
