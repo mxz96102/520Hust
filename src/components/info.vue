@@ -123,13 +123,13 @@ export default {
 
     .nav-back img{
         width: 1.5rem;
-        margin: 0.25rem 0.5rem;
+        margin: 1.3rem 0.5rem;
     }
 
     .info-nav-title{
         font-size: 1.2rem;
         color:#666;
-        line-height: 2rem;
+        line-height: 4rem;
         margin-left: 0.5rem;
     }
 

@@ -113,7 +113,7 @@
 
   },
     data () {
-
+      let __this = this;
       document.title = "520到了，没什么送我的话，麻烦给我表个白蟹蟹！";
 
       axios.get("message/search?region="+this.$route.params.loc+"&number="+this.$route.params.num+"&key="+this.$route.params.name)
@@ -183,7 +183,7 @@
             "upthewall": document.getElementById("checkboxFourInput").checked ? 1 : 0
           })
             .then((e)=>{
-              location.reload()
+              location.hash = "#/info/"+this.$route.params.loc+"/"+this.$route.params.num
             })
         }
 
@@ -237,7 +237,7 @@
     }
 
     .form {
-        width: 70%;
+        width: 80%;
         margin: 3rem auto;
         font-size: 1.1rem;
         color: #999;
