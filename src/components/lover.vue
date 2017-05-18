@@ -154,7 +154,7 @@
             "upthewall": document.getElementById("checkboxFourInput").checked ? 1 : 0
           }).then((e)=>{
             alert("提交成功")
-            location.hash = "#/info/"+this.dorm.num+"/"+getV("num")
+            location.hash = "#/info/"+this.dorm.num+"/"+(parseInt(getV("num"))+1)
           })
         }
 

@@ -116,7 +116,7 @@
       let __this = this;
       document.title = "520到了，没什么送我的话，麻烦给我表个白蟹蟹！";
 
-      axios.get("message/search?region="+this.$route.params.loc+"&number="+this.$route.params.num+"&key="+this.$route.params.name)
+      axios.get("message/search?key="+this.$route.params.name)
         .then((result)=>{
           console.log(result)
           __this.msg = result.data;
@@ -183,7 +183,7 @@
             "upthewall": document.getElementById("checkboxFourInput").checked ? 1 : 0
           })
             .then((e)=>{
-              location.hash = "#/info/"+this.$route.params.loc+"/"+this.$route.params.num
+              location.hash = "#/info/"+this.$route.params.loc+"/"+(parseInt(this.$route.params.num)+1)
             })
         }
 
