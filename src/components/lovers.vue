@@ -201,6 +201,10 @@
 </script>
 
 <style>
+    input[disabled]{
+        background: transparent;
+    }
+
     .lovers-nav {
         height: 6rem;
         line-height: 6rem;

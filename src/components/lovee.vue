@@ -49,7 +49,7 @@
                 栋
             </div>
             <div class="form-el lovee-bu">
-                <button @click="()=>location.hash='#/lovers/'+getV('lover')+'/'+dorm.num+'/'+getV('B')">生成表白页面</button>
+                <button @click="()=>{alert('右上角分享给朋友或朋友圈来被表白哦！');location.hash='#/lovers/'+getV('lover')+'/'+dorm.num+'/'+getV('B')}">生成表白页面</button>
             </div>
         </div>
     </div>
@@ -66,6 +66,7 @@
       return {
         getV : getV,
         location: location,
+        alert : alert,
         isOn: false,
         dorm : {
           num : 1
