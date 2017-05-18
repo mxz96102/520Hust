@@ -13,15 +13,15 @@
           <span id="sortType">按热度</span>
       </div>
       <ul class="info-list ">
-          <li class="special" v-for="item in msg">
+          <li :class="{'special': item.create_time == '5-20 13:14'}" v-for="item in msg">
             <div class="info-all">
                 <div class="info-left">
                     <span>{{item.name}}</span><br/>
                     <span class="time">{{item.create_time}}</span>
                 </div>
                 <div class="info-right">
-                    <img v-if="item.is_liked" src="../assets/hearta.png" @click="()=>{item.is_liked=!item.is_liked;like.apply(this,item.id,1)}" alt="">
-                    <img v-if="!item.is_liked" src="../assets/heartb.png" @click="()=>{item.is_liked=!item.is_liked;like.apply(this,item.id,0)}" alt="">
+                    <img v-if="!item.is_liked" src="../assets/hearta.png" @click="()=>{item.is_liked=!item.is_liked;like(item.id,1)}" alt="">
+                    <img v-if="item.is_liked" src="../assets/heartb.png" @click="()=>{item.is_liked=!item.is_liked;like(item.id,0)}" alt="">
                     {{item.likes}}
                 </div>
             </div>
