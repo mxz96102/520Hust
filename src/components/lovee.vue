@@ -49,7 +49,7 @@
                 栋
             </div>
             <div class="form-el lovee-bu">
-                <button @click="()=>{alert('右上角分享给朋友或朋友圈来被表白哦！');location.hash='#/lovers/'+getV('lover')+'/'+dorm.num+'/'+getV('B')}">生成表白页面</button>
+                <button @click="subit">生成表白页面</button>
             </div>
         </div>
     </div>
@@ -57,7 +57,6 @@
 
 <script>
   let getV = (name)=>document.getElementsByName(name)[0].value;
-
 
   export default {
     name: 'lovee',
@@ -77,6 +76,13 @@
           ["东一舍","东二舍","东三舍","东四舍","东五舍","东六舍","东七舍","东八舍","东九舍","东十舍","东十一舍","东十二舍","东十三舍"],
           ["西一舍","西二舍","西三舍","西四舍","西五舍","西六舍","西七舍","西八舍","西九舍","西十舍","西十一舍","西十二舍","西十三舍","西十四舍","西十五舍","西十六舍","西十七舍"]
         ]
+      }
+    },
+    methods:{
+      subit(){
+        let __this = this;
+        alert('右上角分享给朋友或朋友圈来被表白哦！');
+        location.hash='#/lovers/'+getV('lover')+'/'+__this.dorm.num+'/'+getV('B');
       }
     }
   }
