@@ -30,6 +30,9 @@
             </div>
         </div>
         <div class="form">
+            <div class="form-el slogan">
+                善良如我，给他们一个向我匿名表白的机会好了
+            </div>
             <div class="form-el">我的名字：<input name="lover" type="text" required></div>
             <div class="form-el">我的楼栋：
                 <select v-model="dorm" name="A" id="">
@@ -86,6 +89,11 @@
         background: #82c7f6;
         display: inline-flex;
         position: relative;
+    }
+
+    .form-el.slogan{
+        color: #ff8f8f;
+        text-align: center;
     }
 
     .lovee-left {

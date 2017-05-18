@@ -30,6 +30,9 @@
             </div>
         </div>
         <div class="form">
+            <div class="form-el slogan">
+                520到了，没什么送我的话，麻烦给我表个白蟹蟹！
+            </div>
             <div class="form-el">他 / 她的名字：<input name="lover" type="text" disabled :value="$route.params.name"></div>
             <div class="form-el">他 / 她的楼栋：
                 <select v-model="dorm" name="dorm">
@@ -74,6 +77,24 @@
                 <button @click="subit">发表表白</button>
             </div>
         </div>
+        <ul class="info-list ">
+            <li :class="{'special': item.create_time == '5-20 13:14'}" v-for="item in msg">
+                <div class="info-all">
+                    <div class="info-left">
+                        <span>{{item.name}}</span><br/>
+                        <span class="time">{{item.create_time}}</span>
+                    </div>
+                    <div class="info-right">
+                        <img v-if="!item.is_liked" src="../assets/hearta.png" @click="()=>{item.is_liked=!item.is_liked;like(item.id,1);item.likes=parseInt(item.likes)+1}" alt="">
+                        <img v-if="item.is_liked" src="../assets/heartb.png" @click="()=>{item.is_liked=!item.is_liked;like(item.id,0);item.likes=parseInt(item.likes)-1}" alt="">
+                        {{item.likes}}
+                </div>
+                </div>
+                <p class="info-content">
+                    {{item.text}}
+            </p>
+            </li>
+        </ul>
     </div>
 </template>
 
@@ -93,7 +114,13 @@
   },
     data () {
 
-      document.title = "520到了，没什么送我的话，麻烦给我表个白蟹蟹！"
+      document.title = "520到了，没什么送我的话，麻烦给我表个白蟹蟹！";
+
+      axios.get("message/search?region="+this.$route.params.loc+"&number="+this.$route.params.num+"&key="+value)
+        .then((result)=>{
+          console.log(result)
+          __this.msg = result.data;
+        })
 
       return {
         location: location,
@@ -106,7 +133,8 @@
           ["1栋","2栋","3栋","4栋","5栋","6栋","7栋","8栋","9栋","10栋","11栋","12栋","13栋"],
           ["东一舍","东二舍","东三舍","东四舍","东五舍","东六舍","东七舍","东八舍","东九舍","东十舍","东十一舍","东十二舍","东十三舍","南一舍","南二舍","南三舍"],
           ["西一舍","西二舍","西三舍","西四舍","西五舍","西六舍","西七舍","西八舍","西九舍","西十舍","西十一舍","西十二舍","西十三舍","西十四舍","西十五舍","西十六舍","西十七舍"]
-        ]
+        ],
+        msg:[]
       }
     },
     methods:{
