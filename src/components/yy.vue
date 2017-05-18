@@ -384,7 +384,7 @@ export default {
 
     axios.get("message/count?region=1")
       .then((result)=>{
-        __this.num = result.count;
+        __this.num = result.data.count;
       })
       .catch((e)=>{
         console.log(e)
