@@ -20,8 +20,8 @@
                     <span class="time">{{item.create_time}}</span>
                 </div>
                 <div class="info-right">
-                    <img v-if="!item.is_liked" src="../assets/hearta.png" @click="()=>{item.is_liked=!item.is_liked;like(item.id,1)}" alt="">
-                    <img v-if="item.is_liked" src="../assets/heartb.png" @click="()=>{item.is_liked=!item.is_liked;like(item.id,0)}" alt="">
+                    <img v-if="!item.is_liked" src="../assets/hearta.png" @click="()=>{item.is_liked=!item.is_liked;like(item.id,1);item.likes=parseInt(item.likes)+1}" alt="">
+                    <img v-if="item.is_liked" src="../assets/heartb.png" @click="()=>{item.is_liked=!item.is_liked;like(item.id,0);item.likes=parseInt(item.likes)-1}" alt="">
                     {{item.likes}}
                 </div>
             </div>

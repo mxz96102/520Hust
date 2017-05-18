@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="form">
-            <div class="form-el">我的名字：<input name="lover" type="text"></div>
+            <div class="form-el">我的名字：<input name="lover" type="text" required></div>
             <div class="form-el">我的楼栋：
                 <select v-model="dorm" name="A" id="">
                     <option v-bind:value="{ num: 1 }" default>韵苑</option>
