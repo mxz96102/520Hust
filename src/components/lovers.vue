@@ -111,6 +111,56 @@
     document.getElementsByTagName("option")[parseInt(this.dorm.num)-1].selected = true;
     document.getElementsByTagName("select")[1].value = parseInt(this.$route.params.num)+1;
 
+    wx.onMenuShareTimeline({
+      title: '520到了，没什么送我的话，麻烦给我表个白蟹蟹！', // 分享标题
+      link: location.href, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+      imgUrl: 'http://520.mingdom.cn/stastic/img/pic.jpg', // 分享图标
+      success: function () {
+        // 用户确认分享后执行的回调函数
+      },
+      cancel: function () {
+        // 用户取消分享后执行的回调函数
+      }
+    });
+    wx.onMenuShareAppMessage({
+      title: '520到了，没什么送我的话，麻烦给我表个白蟹蟹！', // 分享标题
+      desc: '520 HUST 匿名表白', // 分享描述
+      link: location.href, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+      imgUrl: 'http://520.mingdom.cn/stastic/img/pic.jpg', // 分享图标
+      type: '', // 分享类型,music、video或link，不填默认为link
+      dataUrl: '', // 如果type是music或video，则要提供数据链接，默认为空
+      success: function () {
+        // 用户确认分享后执行的回调函数
+      },
+      cancel: function () {
+        // 用户取消分享后执行的回调函数
+      }
+    });
+    wx.onMenuShareQQ({
+      title: '520到了，没什么送我的话，麻烦给我表个白蟹蟹！', // 分享标题
+      desc: '520 HUST 匿名表白', // 分享描述
+      link: location.href, // 分享链接
+      imgUrl: 'http://520.mingdom.cn/stastic/img/pic.jpg', // 分享图标
+      success: function () {
+        // 用户确认分享后执行的回调函数
+      },
+      cancel: function () {
+        // 用户取消分享后执行的回调函数
+      }
+    });
+    wx.onMenuShareQZone({
+      title: '520到了，没什么送我的话，麻烦给我表个白蟹蟹！', // 分享标题
+      desc: '520 HUST 匿名表白', // 分享描述
+      link: location.href, // 分享链接
+      imgUrl: 'http://520.mingdom.cn/stastic/img/pic.jpg', // 分享图标
+      success: function () {
+        // 用户确认分享后执行的回调函数
+      },
+      cancel: function () {
+        // 用户取消分享后执行的回调函数
+      }
+    });
+
   },
     data () {
       let __this = this;
