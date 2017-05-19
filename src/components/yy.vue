@@ -215,11 +215,22 @@
 	<text id="XMLID_190_" transform="matrix(0.8717 0 0 1 213.0997 58.1944)" class="st5 st2 st3">{{num[22]}}</text>
 	<text id="XMLID_189_" transform="matrix(0.8717 0 0 1 220.125 58.1944)" class="st1 st2 st3">条表白</text>
 </g>
-<g id="XMLID_546_">
-	<rect id="XMLID_207_" x="200.8" y="67.2" class="st0" width="45.6" height="15.4"/>
-	<text id="XMLID_199_" transform="matrix(0.8717 0 0 1 217.1645 76.4711)" class="st1 st2 st3">韵二超市</text>
+<g id="XMLID_188_0">
+	<rect id="XMLID_197_0" @click="()=>location.hash='#/info/1/22'" x="188.6" y="66.3" class="st4" width="45.6" height="15.4"/>
+	<g id="XMLID_192_0">
+		<rect id="XMLID_196_0" x="192.4" y="69.2" class="st1" width="7.1" height="0.7"/>
+		<rect id="XMLID_195_0" x="192.4" y="70.7" class="st1" width="7.1" height="0.7"/>
+		<polygon id="XMLID_194_0" class="st1" points="200.6,78 196.7,78.8 195.6,71.5 199.5,70.7 		"/>
+		<polygon id="XMLID_193_0" class="st1" points="191.2,78 195.1,78.8 196.2,71.5 192.3,70.7 		"/>
+	</g>
+	<text id="XMLID_191_0" transform="matrix(0.8717 0 0 1 222.6176 72.8687)" class="st1 st2 st3">22栋</text>
+	<text id="XMLID_190_0" transform="matrix(0.8717 0 0 1 213.0997 78.1944)" class="st5 st2 st3">{{num[22]}}</text>
+	<text id="XMLID_189_0" transform="matrix(0.8717 0 0 1 220.125 78.1944)" class="st1 st2 st3">条表白</text>
 </g>
-<g id="XMLID_37_">
+<g data-v-4caeaf58="" id="XMLID_546_">
+    <rect data-v-4caeaf58="" id="XMLID_207_" x="200.8" y="87.2" width="45.6" height="15.4" class="st0"></rect>
+    <text data-v-4caeaf58="" id="XMLID_199_" transform="matrix(0.8717 0 0 1 217.1645 96.4711)" class="st1 st2 st3">韵二超市</text>
+</g><g id="XMLID_37_">
 	<rect id="XMLID_77_" @click="()=>location.hash='#/info/1/10'" x="68.2" y="65.5" class="st6" width="45.6" height="15.4"/>
 	<text id="XMLID_71_" transform="matrix(0.8717 0 0 1 102.6524 72.0972)" class="st1 st2 st3">10栋</text>
 	<text id="XMLID_70_" transform="matrix(0.8717 0 0 1 92.7087 77.4234)" class="st7 st2 st3">{{num[9]}}</text>
@@ -404,7 +415,7 @@ export default {
         max-width: 100vw;
         padding-top: 5rem;
         background: #eaf3e7;
-        overflow: scroll;
+        overflow: ;
     }
     .yy svg{
         width: 250%;

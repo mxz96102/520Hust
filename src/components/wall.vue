@@ -66,49 +66,47 @@
 		C82.1,282.6,76.2,286.9,71,285.7z"/>
 </g>
 </svg>
+          <img src="../assets/2dm.png" style="width: 100%" alt="">
       </div>
       <div class="wall-right">
           <ul class="info-list ">
-              <li class="special animated" :class="{'fadeOutUp' : isOut0 , 'fadeInUp' : isIn0}">
+              <li class="animated" :class="{'fadeOutUp' : isOut0 , 'fadeInUp' : isIn0,'special': item[0].create_time == '5-20 13:14'}">
                   <div class="info-all">
                       <div class="info-left">
-                          <span>那个谁</span><br/>
+                          <span>{{item[0].name}}</span><br/>
                       </div>
                       <div class="info-right">
-                          <span class="time">05-20 13:14</span>
+                          <span class="time">{{item[0].create_time}}</span>
                       </div>
                   </div>
-                  <p class="info-content">
-                      朋友问我今后的打算，我说还没想过，走一步说一步了。一个人静下来时，我又想到这个问题，难道真会这样吗，走一步说一步向来不是我的风格。我总是喜欢在做一件事儿之前把它想了一遍又一遍，总是担心这个，害怕那个。而我的总是不幸运也又让我担心的怕的更多，每每的不成功，让我偶尔对一些追求也不在乎起来，至少也有了个比较平常的心去对待。古人的伟大就是因为他们的眼光，很早就看到无心插柳柳成荫的哲学。而我，直到今天，才学会去领悟那么一点点。
-回想一直以来走过的路，往往是不经意间的努力，造就了我今天的成果。而努力为这争取的，却往往是教训。
+                  <p class="info-content" :class="{'small' : item[0].text.length>150,'big' : item[0].text.length<50}">
+                      {{item[0].text}}
                   </p>
               </li>
-              <li class="special animated" :class="{'fadeOutUp' : isOut1, 'fadeInUp' : isIn1}">
+              <li class="animated" :class="{'fadeOutUp' : isOut1 , 'fadeInUp' : isIn1,'special': item[1].create_time == '5-20 13:14'}">
                   <div class="info-all">
                       <div class="info-left">
-                          <span>那个谁</span><br/>
+                          <span>{{item[1].name}}</span><br/>
                       </div>
                       <div class="info-right">
-                          <span class="time">05-20 13:14</span>
+                          <span class="time">{{item[1].create_time}}</span>
                       </div>
                   </div>
-                  <p class="info-content">
-                      哎呀啊啊啊啊，我真的超级喜欢你啊谁谁谁，在这个特别的日子里，我想大声的告诉你啊，我真的好好好好好喜欢你<br/>
-                      你知道吗<br/>
+                  <p class="info-content" :class="{'small' : item[1].text.length>150,'big' : item[1].text.length<50}">
+                      {{item[1].text}}
                   </p>
               </li>
-              <li class="special animated" :class="{'fadeOutUp' : isOut2 , 'fadeInUp' : isIn2}">
+              <li class="animated" :class="{'fadeOutUp' : isOut2 , 'fadeInUp' : isIn2,'special': item[2].create_time == '5-20 13:14'}">
                   <div class="info-all">
                       <div class="info-left">
-                          <span>那个谁</span><br/>
+                          <span>{{item[2].name}}</span><br/>
                       </div>
                       <div class="info-right">
-                          <span class="time">05-20 13:14</span>
+                          <span class="time">{{item[2].create_time}}</span>
                       </div>
                   </div>
-                  <p class="info-content">
-                      哎呀啊啊啊啊，我真的超级喜欢你啊谁谁谁，在这个特别的日子里，我想大声的告诉你啊，我真的好好好好好喜欢你<br/>
-                      你知道吗<br/>
+                  <p class="info-content" :class="{'small' : item[2].text.length>150,'big' : item[2].text.length<50}">
+                      {{item[2].text}}
                   </p>
               </li>
           </ul>
@@ -126,20 +124,41 @@ export default {
       isOut0 : false,
       isOut1 : false,
       isOut2 : false,
+      isIn0 : false,
       isIn1 : false,
       isIn2 : false,
-      isIn3 : false,
+      id : 0,
+      offset : 1,
+      item:[{text:""},{text:""},{text:""}]
     }
   },
+    mounted(){
+      let ws = new WebSocket('ws://520.mingdom.cn/api/wall/message'),__this = this;
+
+      ws.onopen=function (e) {
+        setInterval(()=>{ws.send('{"id": 1,"action": "query","body": {"offset": "'+__this.offset+'","limit": "3"}}')
+        },6000)
+
+        ws.send('{"id": 1,"action": "query","body": {"offset": "'+__this.offset+'","limit": "3"}}')
+
+        ws.onmessage = function(event) {
+          let re = JSON.parse(event.data);
+          console.log(re)
+          __this.offset = parseInt(re.body.offset)
+          setTimeout(()=>{__this.isOut0=true; __this.isIn0=false},1)
+          setTimeout(()=>{__this.isOut1=true; __this.isIn1=false},201)
+          setTimeout(()=>{__this.isOut2=true; __this.isIn2=false},401)
+          setTimeout(()=>{__this.item = re.body.data;__this.isOut0=false; __this.isIn0=true},1500)
+          setTimeout(()=>{__this.isOut1=false; __this.isIn1=true},1700)
+          setTimeout(()=>{__this.isOut2=false; __this.isIn2=true},1900)
+        };
+      }
+    },
   methods:{
     change(){
       let __this = this;
-      setTimeout(()=>__this.isOut0=true,1)
-      setTimeout(()=>__this.isOut1=true,201)
-      setTimeout(()=>__this.isOut2=true,401)
-      setTimeout(()=>{__this.isOut0=false; __this.isIn0=true},1500)
-      setTimeout(()=>{__this.isOut1=false; __this.isIn1=true},1700)
-      setTimeout(()=>{__this.isOut2=false; __this.isIn2=true},1900)
+
+
     }
   }
 }
@@ -148,6 +167,7 @@ export default {
 <style scoped>
     .wall .info-list li{
         margin-bottom: 1rem;
+        height: 25vh;
     }
 
     .wall{
@@ -155,6 +175,14 @@ export default {
     }
    .wall .info-content{
        font-size: 12px;
+    }
+
+    .wall .info-content.big{
+        font-size: 16px;
+    }
+
+    .wall .info-content.small{
+        font-size: 9px;
     }
 
     .wall .info-all{
