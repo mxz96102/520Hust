@@ -98,7 +98,7 @@
         height: 8rem;
         line-height: 8rem;
         width: 100%;
-        background: #82c7f6;
+        background: #b0dfff;
         display: inline-flex;
         position: relative;
     }

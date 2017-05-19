@@ -143,6 +143,7 @@ export default {
         text-align: center;
         font-weight: normal;
         line-height: 3rem;
+        color:#666;
 
     }
 
