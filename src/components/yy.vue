@@ -224,7 +224,7 @@
 		<polygon id="XMLID_193_0" class="st1" points="191.2,78 195.1,78.8 196.2,71.5 192.3,70.7 		"/>
 	</g>
 	<text id="XMLID_191_0" transform="matrix(0.8717 0 0 1 222.6176 72.8687)" class="st1 st2 st3">22栋</text>
-	<text id="XMLID_190_0" transform="matrix(0.8717 0 0 1 213.0997 78.1944)" class="st5 st2 st3">{{num[22]}}</text>
+	<text id="XMLID_190_0" transform="matrix(0.8717 0 0 1 213.0997 78.1944)" class="st5 st2 st3">{{num[21]}}</text>
 	<text id="XMLID_189_0" transform="matrix(0.8717 0 0 1 220.125 78.1944)" class="st1 st2 st3">条表白</text>
 </g>
 <g data-v-4caeaf58="" id="XMLID_546_">
