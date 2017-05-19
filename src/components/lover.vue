@@ -49,7 +49,7 @@
 
             </div>
             <div class="form-el">
-                <textarea name="hanashi" id="" cols="30" rows="10"></textarea>
+                <textarea placeholder="表白控制在两百字以内哦" name="hanashi" id="" cols="30" rows="10"></textarea>
             </div>
             <div class="form-el hidden">
                 <div class="checkboxFour">
@@ -110,6 +110,11 @@
 
         if(getV("hanashi") == ""){
           alert("想说什么还没写呢");
+          return;
+        }
+
+        if(getV("hanashi").length >= 200){
+          alert("表白控制在两百字以内哦");
           return;
         }
 

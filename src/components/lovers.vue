@@ -201,6 +201,11 @@
           return;
         }
 
+        if(getV("hanashi").length >= 200){
+          alert("表白控制在两百字以内哦");
+          return;
+        }
+
         if(getV("phoneA")!= ""&&getV("phoneB")!=""&&getV("phoneA")!=getV("phoneB")){
           if(!(/^1[34578]\d{9}$/.test(getV("phoneA")))){
             alert('请输入正确的手机号码');

@@ -146,11 +146,25 @@ export default {
 </script>
 
 <style scoped>
+    .wall .info-list li{
+        margin-bottom: 1rem;
+    }
+
+    .wall{
+        font-size: 12px;
+    }
+   .wall .info-content{
+       font-size: 12px;
+    }
+
+    .wall .info-all{
+        font-size: 12px;
+        height: 1.5rem;
+    }
     .st0{fill:#87CEFF;}
     .st1{fill:#FFA4A4;}
     .wall-left{
-        width: 10%;
-        margin-top: 1%;
+        width: 18%;
         margin-left: 1%;
         margin-right: 2%;
         position: fixed;
@@ -158,7 +172,6 @@ export default {
     .wall-right{
         width: 70%;
         margin-left: 20%;
-        margin-top: 5%;
     }
     .wall-right .special{
         background-size: auto 100%;
@@ -174,6 +187,6 @@ export default {
         color: #999;
     }
     .info-left {
-        font-size: 1.5rem;
+        font-size: 1.2em;
     }
 </style>

@@ -125,6 +125,8 @@ export default {
         margin-left: 1.5rem;
     }
 
+
+
     .tabcon{
         height: 2rem;
         line-height: 2rem;
@@ -172,9 +174,7 @@ export default {
     }
 
     .index-menu-plus{
-        height: 100%;
         line-height: 4rem;
-        width: 4rem;
         text-align: center;
         color: white;
         font-size: 2.5rem;
@@ -185,6 +185,11 @@ export default {
         background: #d70101;
         border-radius: 2rem;
         box-shadow: -2px 4px 5px 0 rgba(0,0,0,0.16);
+        position: fixed;
+        width: 4rem;
+        height: 4rem;
+        right: 2rem;
+        bottom: 2rem;
     }
 
     .index-menu-list{
