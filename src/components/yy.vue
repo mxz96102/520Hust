@@ -404,9 +404,11 @@ export default {
         max-width: 100vw;
         padding-top: 5rem;
         background: #eaf3e7;
+        overflow: scroll;
     }
     .yy svg{
         width: 250%;
+        background: #eaf3e7;
     }
     .st0{fill:#CDCDCD;}
     .st1{fill:#FFFFFF;}

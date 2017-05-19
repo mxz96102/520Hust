@@ -616,10 +616,12 @@ export default {
         width: 100%;
         max-width: 100vw;
         padding-top: 5rem;
+        overflow: scroll;
         background: #eaf3e7;
     }
     .zs svg{
         width: 400%;
+        background: #eaf3e7;
     }
     .st0{fill:#87CEFF;}
     .st1{fill:#FFFFFF;}
