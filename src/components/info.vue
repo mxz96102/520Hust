@@ -135,12 +135,12 @@ export default {
 
     .search{
         background: white;
-        height: 2rem;
-        line-height: 2rem;
+        height: 2.5rem;
+        line-height: 2.5rem;
         margin-top: -1rem;
         position: relative;
         z-index: 2;
-        width: 90%;
+        width: 85%;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 2px 2px 50px 0 rgba(0,0,0,0.10);
