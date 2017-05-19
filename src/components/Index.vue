@@ -174,10 +174,10 @@ export default {
     }
 
     .index-menu-plus{
-        line-height: 4rem;
+        line-height: 64px;
         text-align: center;
         color: white;
-        font-size: 2.5rem;
+        font-size: 48px;
         transition: transform 0.5s;
         z-index: 8;
         background: #d70101;
