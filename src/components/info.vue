@@ -188,7 +188,7 @@ export default {
     }
 
     .info-left{
-        width: 90%;
+        width: 85%;
     }
 
     .info-left .time{
