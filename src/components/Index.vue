@@ -180,16 +180,14 @@ export default {
         font-size: 2.5rem;
         transition: transform 0.5s;
         z-index: 8;
-        bottom: 2rem;
-        right: 2rem;
         background: #d70101;
         border-radius: 2rem;
         box-shadow: -2px 4px 5px 0 rgba(0,0,0,0.16);
-        position: fixed;
+        position: absolute;
+        bottom: 0;
+        right: 0;
         width: 4rem;
         height: 4rem;
-        right: 2rem;
-        bottom: 2rem;
     }
 
     .index-menu-list{
