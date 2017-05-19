@@ -403,6 +403,7 @@ export default {
         width: 100%;
         max-width: 100vw;
         padding-top: 5rem;
+        background: #eaf3e7;
     }
     .yy svg{
         width: 250%;

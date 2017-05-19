@@ -272,6 +272,7 @@ export default {
         width: 100%;
         max-width: 100vw;
         padding-top: 5rem;
+        background: #eaf3e7;
     }
     .qy svg{
         width: 200%;
