@@ -82,7 +82,7 @@
       subit(){
         let __this = this;
         alert('右上角分享给朋友或朋友圈来被表白哦！');
-        location.hash='#/lovers/'+getV('lover')+'/'+__this.dorm.num+'/'+getV('B');
+        location.href = '?to='+encodeURIComponent('#/lovers/'+getV('lover')+'/'+__this.dorm.num+'/'+getV('B'))+'#/lovers/'+getV('lover')+'/'+__this.dorm.num+'/'+getV('B');
       }
     }
   }

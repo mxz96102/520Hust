@@ -51,7 +51,7 @@
             <div class="form-el">
                 <textarea name="hanashi" id="" cols="30" rows="10"></textarea>
             </div>
-            <div class="form-el">
+            <div class="form-el hidden">
                 <div class="checkboxFour">
                     <input type="checkbox" id="checkboxFourInput" name="wall" checked/>
                     <label for="checkboxFourInput"></label>

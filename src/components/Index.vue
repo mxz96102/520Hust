@@ -80,7 +80,8 @@ export default {
 
 <style>
     .index{
-        width: 100%;
+        width: 100vw;
+        max-width: 100vw;
     }
 
     .nav{
