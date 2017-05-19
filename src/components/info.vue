@@ -188,7 +188,7 @@ export default {
     }
 
     .info-left{
-        width: 80%;
+        width: 90%;
     }
 
     .info-left .time{
@@ -199,6 +199,7 @@ export default {
     .info-right{
         color: #ff8181;
         line-height: 2rem;
+        float: right;
     }
 
     .info-right img{
