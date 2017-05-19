@@ -167,8 +167,8 @@ export default {
         bottom: 2rem;
         right: 2rem;
         background: #d70101;
-        width: 4rem;
-        height: 4rem;
+        width: 64px;
+        height: 64px;
         border-radius: 2rem;
         box-shadow: -2px 4px 5px 0 rgba(0,0,0,0.16);
     }
@@ -186,8 +186,8 @@ export default {
         position: absolute;
         bottom: 0;
         right: 0;
-        width: 4rem;
-        height: 4rem;
+        width: 64px;
+        height: 64px;
     }
 
     .index-menu-list{
