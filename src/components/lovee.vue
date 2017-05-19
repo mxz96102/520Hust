@@ -7,7 +7,7 @@
             </div>
             <div class="lovee-right">
                 <svg version="1.1" class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 500 205" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+	 viewBox="60 0 430 205" style="enable-background:new 0 0 500 500;" xml:space="preserve">
 <path id="XMLID_3_" class="st0" d="M130.6,18c0,0,22.3,10.6,10.6,41.5c-11.7,30.8-24.4,43.5-24.4,43.5s44.9-9.3,50.5,17.5
 	s-27.5,44.6-46.6,37.5c-25.6-9.5-19.1-33.2-19.1-33.2s-26.6-7.7-36,16.7c-14.8,38.7,41.6,80.1,89.6,51.6c55.6-33,39.3-84,24.2-93.8
 	c-8.4-5.5-18.8-10.5-31.8-7.4c0,0,9.3-7.1,14.3-20.2c0,0,32.7,4.2,55.3-21.9c13.1-15.1,3.1-32.8-15-26.4c0,0-10.3,27.1-34,29.6
@@ -46,7 +46,6 @@
                 <select name="B" id="">
                     <option v-for="(item ,index) in info[dorm.num-1]" :value="index">{{item}}</option>
                 </select>
-                栋
             </div>
             <div class="form-el lovee-bu">
                 <button @click="subit">生成表白页面</button>
@@ -81,7 +80,7 @@
     methods:{
       subit(){
         let __this = this;
-        alert('右上角分享给朋友或朋友圈来被表白哦！');
+        alert('在下一个页面，“点击右上角→分享至朋友圈/QQ空间”，给他们一个机会向你表白吧！');
 
         if(getV("lover") == ""){
           alert("你忘记写名字了哦");
@@ -96,8 +95,8 @@
 
 <style>
     .lovee-nav {
-        height: 6rem;
-        line-height: 6rem;
+        height: 8rem;
+        line-height: 8rem;
         width: 100%;
         background: #82c7f6;
         display: inline-flex;
@@ -117,26 +116,29 @@
     }
 
     .lovee-left img {
-        width: 1.5rem;
+        width: 1.2rem;
     }
 
     .lovee-left {
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        line-height: 3rem;
         color: #666;
     }
 
     .lovee-right {
         width: 50%;
         opacity: 0.3;
-        line-height: 5rem;
+        line-height: 6rem;
     }
 
     .lovee-right .logo {
         width: 100%;
+        margin-top: 2rem;
     }
 
     .lovee-bu.form-el button{
         background: #ff8f8f;
+        margin-top: 8rem;
     }
 
 </style>

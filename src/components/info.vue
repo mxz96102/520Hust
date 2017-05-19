@@ -140,7 +140,7 @@ export default {
         margin-top: -1rem;
         position: relative;
         z-index: 2;
-        width: 18rem;
+        width: 90%;
         margin-left: auto;
         margin-right: auto;
         box-shadow: 2px 2px 50px 0 rgba(0,0,0,0.10);
