@@ -82,6 +82,12 @@
       subit(){
         let __this = this;
         alert('右上角分享给朋友或朋友圈来被表白哦！');
+
+        if(getV("lover") == ""){
+          alert("你忘记写名字了哦");
+          return;
+        }
+
         location.href = '?to='+encodeURIComponent('#/lovers/'+getV('lover')+'/'+__this.dorm.num+'/'+getV('B'))+'#/lovers/'+getV('lover')+'/'+__this.dorm.num+'/'+getV('B');
       }
     }
