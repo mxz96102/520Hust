@@ -66,6 +66,7 @@
 		C82.1,282.6,76.2,286.9,71,285.7z"/>
 </g>
 </svg>
+          <p class="info-net">上墙：520.mingdom.cn</p>
           <img src="../assets/2dm.png" style="width: 100%" alt="">
       </div>
       <div class="wall-right">
@@ -168,6 +169,7 @@ export default {
     .wall .info-list li{
         margin-bottom: 1rem;
         height: 25vh;
+        background: white;
     }
 
     .wall{
@@ -185,6 +187,11 @@ export default {
 
     .wall .info-content.small{
         font-size: 9px;
+    }
+
+    .wall .info-net{
+        color: #FF8181;
+        text-align: center;
     }
 
     .wall .info-all{
