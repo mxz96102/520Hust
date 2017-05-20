@@ -168,10 +168,13 @@ export default {
     .wall .info-list li{
         margin-bottom: 1rem;
         height: 25vh;
+        background: white;
     }
 
     .wall{
         font-size: 12px;
+        background: #ffe9e9;
+        height: 100vh;
     }
    .wall .info-content{
        font-size: 12px;

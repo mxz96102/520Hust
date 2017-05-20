@@ -42,7 +42,7 @@ export default {
   data () {
     let __this = this;
 
-    axios.get("message?sortby=likes")
+    axios.get("message?sortby=likes&limit=60")
       .then((result)=>{
         console.log(result)
         __this.msg = result.data

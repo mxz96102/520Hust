@@ -607,6 +607,9 @@ export default {
       numB : [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
       location : location
     }
+  },
+  mounted(){
+    scrollTo(document.body.scrollWidth/2,document.body.scrollHeight/4)
   }
 }
 </script>

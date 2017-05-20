@@ -36,6 +36,7 @@
             <span>排行榜</span>
         </div>
     </div>
+      <div class="love-count">一共有{{count}}条表白</div>
       <div class="hidden" @click="()=>menuOn = !menuOn" :class="{ 'index-layer' : menuOn }">
 
       </div>
@@ -59,21 +60,28 @@ import HMap from './map'
 import qy from './qy'
 import yy from './yy'
 import zs from './zs'
+import axios from '@/axios'
 
 export default {
   components: {HMap,qy,yy,zs}, name: 'index',
   data () {
+    let __this = this;
+
+    axios.get('api/message/count')
+      .then((e)=>{__this.count = e.data.count})
+
     return {
       switchOn:false,
         menuOn : false,
       location : location,
-      map : {now:qy}
+      map : {now:qy},
+      count: 0
     }
   },
   methods:{
   },
   mounted(){
-    //scrollTo(document.body.scrollWidth/2,document.body.scrollHeight/4)
+
   }
 }
 </script>
@@ -88,10 +96,23 @@ export default {
         width: 100%;
         height: 3rem;
         display: inline-flex;
-        box-shadow: 0 4px 5px 0 rgba(0,0,0,0.16);
         position: fixed;
         top:0;
         right: 0;
+        background: white;
+    }
+
+    .love-count{
+        height: 1rem;
+        line-height: 1rem;
+        color: #FF8181;
+        font-size: 0.8rem;
+        width: 100%;
+        position: fixed;
+        top:3rem;
+        right: 0;
+        text-align: center;
+        box-shadow: 0 4px 5px 0 rgba(0,0,0,0.16);
         background: white;
     }
 
