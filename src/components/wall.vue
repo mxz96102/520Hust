@@ -66,7 +66,7 @@
 		C82.1,282.6,76.2,286.9,71,285.7z"/>
 </g>
 </svg>
-          <p class="info-net">上墙：520.mingdom.cn</p>
+          <div class="info-net">上墙：520.mingdom.cn</div>
           <img src="../assets/2dm.png" style="width: 100%" alt="">
       </div>
       <div class="wall-right">
