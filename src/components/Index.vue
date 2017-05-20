@@ -36,7 +36,7 @@
             <span>排行榜</span>
         </div>
     </div>
-      <div class="love-count">一共有{{count}}条表白</div>
+      <div class="love-count hidden">一共有{{count}}条表白</div>
       <div class="hidden" @click="()=>menuOn = !menuOn" :class="{ 'index-layer' : menuOn }">
 
       </div>
