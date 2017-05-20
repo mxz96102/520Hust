@@ -167,29 +167,30 @@ export default {
 <style scoped>
     .wall .info-list li{
         margin-bottom: 1rem;
-        height: 25vh;
+        height: 20vh;
+        background: white;
     }
 
     .wall{
-        font-size: 12px;
+        font-size: 8px;
         background: #ffe9e9;
         height: 100vh;
     }
    .wall .info-content{
-       font-size: 12px;
+       font-size: 8px;
     }
 
     .wall .info-content.big{
-        font-size: 16px;
+        font-size: 10px;
     }
 
     .wall .info-content.small{
-        font-size: 9px;
+        font-size: 5px;
     }
 
     .wall .info-all{
-        font-size: 12px;
-        height: 1.5rem;
+        font-size: 8px;
+        height: 1.2em;
     }
     .st0{fill:#87CEFF;}
     .st1{fill:#FFA4A4;}
