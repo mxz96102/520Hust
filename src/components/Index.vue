@@ -67,7 +67,7 @@ export default {
   data () {
     let __this = this;
 
-    axios.get('api/message/count')
+    axios.get('message/count')
       .then((e)=>{__this.count = e.data.count})
 
     return {
