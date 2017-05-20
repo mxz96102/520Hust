@@ -100,6 +100,7 @@ export default {
         top:0;
         right: 0;
         background: white;
+        z-index: 3;
     }
 
     .love-count{
@@ -114,6 +115,7 @@ export default {
         text-align: center;
         box-shadow: 0 4px 5px 0 rgba(0,0,0,0.16);
         background: white;
+        z-index: 1;
     }
 
     .switch-menu{
